@@ -4,7 +4,7 @@ El siguiente proyecto tiene como objetivo procesar las actas de resultados de la
 
 El script `descargar_actas.py` se encarga de descargar las actas en el directorio `actas`. Mientras que el script `extraer_informacion_miembros.py` se encarga de extraer la información de los miembros de las mesas  y las inserta como nuevas columnas en el csv `RESULTADOS_2024_CSV_V1.csv`.
 
-<span style="color: red;">**NOTA:**</span> Para el procesamiento de las actas se utiliza el engine OCR [Tesseract](https://github.com/madmaze/pytesseract). Debido a que, en muchos de los casos las imágnes no tienen la mejor calidad, muchos de los resultados no son los esperados. Este script se elaboró como un ejemplo y no debe ser utilizado como referencia para el procesamiento de las actas.
+<span style="color: red;">**NOTA:**</span> Para el procesamiento de las actas se utiliza el engine OCR [Tesseract](https://github.com/madmaze/pytesseract). Debido a que, en muchos de los casos las imágenes no tienen la mejor calidad, muchos de los resultados no son los esperados. Este script se elaboró como un ejemplo y no debe ser utilizado como referencia para el procesamiento de las actas.
 
 **ESTE PROYECTO FUE ELABORADO CON FINES DIDÁCTICOS Y EDUCATIVOS. NO TIENE LA INTENCIÓN DE SER UTILIZADO COMO REFERENCIA PARA EL PROCESAMIENTO DE LAS ACTAS DE LAS MESAS ELECTORALES.**
 
