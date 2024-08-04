@@ -1,10 +1,12 @@
-# Procesador de actas de las mesas de resultados electorales en Venezuela 2024
+# Procesador de actas de resultados de las mesas electorales en Venezuela 2024
 
-El siguiente proyecto tiene como objetivo procesar las actas de las mesas de resultados electorales en Venezuela 2024 para extraer la información referente a los miembros de las mesas electorales.
+El siguiente proyecto tiene como objetivo procesar las actas de resultados de las mesas  electorales de las elecciones presidenciales de Venezuela 2024 para extraer la información referente a los miembros de las mesas electorales.
 
 El script `descargar_actas.py` se encarga de descargar las actas en el directorio `actas`. Mientras que el script `extraer_informacion_miembros.py` se encarga de extraer la información de los miembros de las mesas  y las inserta como nuevas columnas en el csv `RESULTADOS_2024_CSV_V1.csv`.
 
 <span style="color: red;">**NOTA:**</span> Para el procesamiento de las actas se utiliza el engine OCR [Tesseract](https://github.com/madmaze/pytesseract). Debido a que, en muchos de los casos las imágnes no tienen la mejor calidad, muchos de los resultados no son los esperados. Este script se elaboró como un ejemplo y no debe ser utilizado como referencia para el procesamiento de las actas.
+
+**ESTE PROYECTO FUE ELABORADO CON FINES DIDÁCTICOS Y EDUCATIVOS. NO TIENE LA INTENCIÓN DE SER UTILIZADO COMO REFERENCIA PARA EL PROCESAMIENTO DE LAS ACTAS DE LAS MESAS ELECTORALES.**
 
 ![Screenshot](screenshot.webp)
 

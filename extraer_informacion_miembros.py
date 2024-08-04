@@ -9,7 +9,7 @@ csv = 'RESULTADOS_2024_CSV_V1.csv'
 data = pd.read_csv(csv)
 
 # Ruta del directorio de actas
-directorio_actas = '/Users/jesusgarcia/Projects/resultadosvnz/actas'
+directorio_actas = '/Users/jesusgarcia/Projects/resultadosvnzla/actas'
 
 # Añadir nuevas columnas
 new_columns = {"Presidente": None, "CI_Presidente": None, "Secretario": None, "CI_Secretario": None,
